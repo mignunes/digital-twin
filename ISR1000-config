@@ -1,6 +1,5 @@
 hostname BR001
 username cisco password cisco
-interface FastEthernet1/0/1
-description Sourcefire MGMT
-switchport access vlan 923
-switchport mode access
+interface GigEthernet0/1
+description INET
+ip address 10.1.1.1 255.255.255.0
